@@ -8,23 +8,21 @@ public class Main {
             System.out.println("Число " + n + " не міститься в проміжку (50; 100)");
         }
 
-        //task 2
-        int a = 678;
-        int maxDigit = 0;
-        int digit;
+//         //task 2
+//         int a = 678;
+//         int maxDigit = 0;
+//         int digit;
 
-        while (n > 0) {
-            digit = a % 10;
-            if (digit > maxDigit) {
-                maxDigit = digit;
-            }
-            n = n / 10;
-        }
+//         while (n > 0) {
+//             digit = a % 10;
+//             if (digit > maxDigit) {
+//                 maxDigit = digit;
+//             }
+//             n = n / 10;
+//         }
 
-        System.out.println("Найбільша цифра у заданому числі: " + maxDigit);
+//         System.out.println("Найбільша цифра у заданому числі: " + maxDigit);
 
-
-        //task 3
     }
 
 }
